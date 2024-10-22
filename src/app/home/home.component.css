@@ -1,0 +1,14 @@
+.project-image {
+    height: 200px; /* Set a uniform height for images */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    margin-bottom: 1rem; /* Space between carousel images */
+}
+
+.text-center h2 {
+    font-size: 2rem; /* Adjust heading size for visual hierarchy */
+    font-weight: bold; /* Make the heading stand out */
+}
+
+.text-muted {
+    line-height: 1.6; /* Improved line spacing for readability */
+}

@@ -1,0 +1,30 @@
+<div class="container py-2">
+    <div class="row g-8">
+        <!-- About Me Section -->
+        <div class="col-lg-6 shadow border p-4 bg-light rounded">
+            <div class="text-center">
+                <h2 class="mb-4">About Me</h2>
+                <img src="../../assets/reinier-grad.jpg" alt="profile picture" width="250" height="250" class="rounded-circle shadow-lg mb-3">
+                <p class="text-muted">
+                    I am a passionate Fresh Graduate Computer Engineer with a keen interest in embedded systems, front-end development, and cybersecurity. My journey in tech has equipped me with a diverse skill set, allowing me to tackle complex problems and create innovative solutions.
+                    When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or mentoring aspiring developers. I believe in the power of technology to make a positive impact on the world, and I'm excited to be part of this ever-evolving field.
+                </p>
+            </div>
+        </div>
+
+        <!-- Featured Project Section -->
+        <div class="col-lg-6 shadow border p-4 bg-light rounded">
+            <div class="text-center">
+                <h2 class="mb-4">Featured Projects</h2>
+                <h4 class="text-primary">{{featuredProject.name}}</h4>
+                <carousel class="carousel-wrapper mb-4">
+                    <div *ngFor="let picture of featuredProject.pictures">
+                        <img src={{picture}} alt="slides" class="project-image img-fluid rounded shadow-sm">
+                    </div>
+                </carousel>
+                <p class="text-muted mt-3">{{featuredProject.description}}</p>
+                <p class="text-primary">Visit the Portfolio section to learn more!</p>
+            </div>
+        </div>
+    </div>
+</div>

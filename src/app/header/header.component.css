@@ -1,0 +1,56 @@
+.jumbotron {
+    position: relative;
+    height: 20vh; /* Adjust as needed */
+    background: linear-gradient(135deg, #1a1a1a 25%, #0d0d0d 25%, #0d0d0d 50%, #1a1a1a 50%, #1a1a1a 75%, #0d0d0d 75%, #0d0d0d);
+    background-size: 50px 50px;
+    overflow: hidden;
+}
+
+.jumbotron h1, .jumbotron h3 {
+    position: relative;
+    z-index: 1; /* Ensures text is above the background */
+}
+
+  
+  .text-center {
+    color: #fffefe; /* Dark text color for contrast */
+  }
+  
+  h1.display-4 {
+    font-size: 3rem; /* Increase font size */
+    margin-bottom: 0.5rem; /* Spacing below the header */
+    text-transform: uppercase; /* Make the text uppercase */
+    font-weight: bold;
+  }
+  
+  .typewriter {
+    font-family: 'Courier New', Courier, monospace; /* Typewriter-style font */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide the overflowing text */
+   
+  }
+  
+  .typewriter h3 {
+    font-size: 2rem; /* Font size for the typewriter text */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .cursor {
+    display: inline-block; /* Keep the cursor inline with the text */
+    color: rgb(255, 255, 255); /* Color of the cursor */
+    animation: blink-caret 0.75s step-end infinite; /* Blink effect for cursor */
+  }
+  
+  .subheading {
+    font-size: 1.5rem; /* Smaller size for subheading */
+    color: #555; /* Subtle color for the subheading */
+    margin-top: 1rem; /* Spacing above the subheading */
+    font-style: italic; /* Italic style for emphasis */
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      opacity: 0; /* Make the cursor invisible */
+    }
+  }
+  

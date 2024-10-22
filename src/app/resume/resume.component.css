@@ -1,0 +1,125 @@
+.accordion-wrapper {
+    margin: 20px;
+  }
+  
+  .accordion-group-custom {
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-bottom: 10px; /* Space between accordion groups */
+    overflow: hidden; /* Hide overflow for clean look */
+    border: 1px solid #ddd; /* Light border */
+  }
+  
+  .accordion-group-custom .accordion-content {
+    padding: 15px 20px; /* Add some padding */
+  }
+  
+  .accordion-group-custom .accordion-content p, 
+  .accordion-group-custom .accordion-content ul {
+    margin: 0;
+    padding: 0;
+    color: #333; /* Text color */
+  }
+  
+  .accordion-group-custom .accordion-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .accordion-group-custom .accordion-content ul li {
+    margin-bottom: 8px; /* Space between list items */
+  }
+  
+  .accordion-group-custom p {
+    font-weight: 500; /* Slightly bolder font for labels */
+    color: #555; /* Softer color for labels */
+  }
+  
+  .accordion-group-custom .accordion-content strong {
+    font-weight: 600; /* Bold for job titles or headers */
+    color: #2c3e50; /* Darker color for emphasis */
+  }
+  
+  .accordion-group-custom .accordion-content a {
+    color: #3498db; /* Stylish blue for links */
+    text-decoration: none;
+  }
+  
+  .accordion-group-custom .accordion-content a:hover {
+    text-decoration: underline;
+  }
+
+  .accordion-wrapper {
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .accordion-group-custom {
+    background-color:#3498db; /* Light background */
+    color: white;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-bottom: 15px; /* Space between accordion groups */
+    border: 1px solid #ddd; /* Light border */
+  }
+  
+  .accordion-header {
+    background-color: #3498db; /* Primary color */
+    color: white; /* White text for header */
+    padding: 15px;
+    font-size: 1.2rem; /* Increase font size */
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+  }
+  
+  .accordion-body {
+    padding: 20px; /* More padding for body content */
+    background-color: #fff; /* White background for body */
+  }
+  
+  .accordion-body p,
+  .accordion-body ul {
+    margin: 0;
+    padding: 0;
+    color: #333; /* Text color */
+  }
+  
+  .accordion-body ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-top: 10px;
+  }
+  
+  .accordion-body ul li {
+    margin-bottom: 8px; /* Space between list items */
+  }
+  
+  .accordion-body p {
+    margin-bottom: 15px; /* Space between paragraphs */
+    font-weight: 500; /* Slightly bolder font for labels */
+    color: #555; /* Softer color for labels */
+  }
+  
+  .accordion-body strong {
+    font-weight: 600; /* Bold for job titles or headers */
+    color: #2c3e50; /* Darker color for emphasis */
+  }
+  
+  .accordion-body hr {
+    border: none;
+    border-top: 1px solid #e0e0e0; /* Light horizontal line */
+    margin: 20px 0; /* Space around horizontal line */
+  }
+  
+  .accordion-group-custom .accordion-content a {
+    color: #3498db; /* Stylish blue for links */
+    text-decoration: none;
+  }
+  
+  .accordion-group-custom .accordion-content a:hover {
+    text-decoration: underline;
+  }
+  
+  

@@ -1,0 +1,35 @@
+.navbar-custom {
+    background-color: #f8f9fa; /* Light background */
+    padding: 1rem; /* Add padding */
+  }
+  
+  .navbar-custom .nav-link {
+    font-size: 18px;  /* Adjust font size */
+    font-weight: 500;  /* Slightly bold */
+    color: #6c757d;  /* Initial link color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #343a40;  /* Darker color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .active-link {
+    color: #000000 !important;  /* Dark color for active links */
+    font-weight: 600;  /* Make active links slightly bolder */
+  }
+  
+  .nav-item {
+    margin-left: 1.5rem;  /* Add space between nav items */
+  }
+  
+  @media (max-width: 768px) {
+    .nav-item {
+      margin-left: 0;  /* Remove space for smaller screens */
+    }
+    .navbar-custom {
+      text-align: center;  /* Center items on small screens */
+    }
+  }
+  
